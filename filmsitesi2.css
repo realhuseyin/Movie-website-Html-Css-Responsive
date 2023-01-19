@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Manrope&family=Nosifer&family=Open+Sans&family=Oswald:wght@500&family=Raleway:wght@100;300;400;500;600;700;800;900&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=IBM+Plex+Sans+KR&family=Manrope&family=Nosifer&family=Open+Sans&family=Oswald:wght@500&family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Manrope&family=Nosifer&family=Open+Sans&family=Orienta&family=Oswald:wght@500&family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Manrope&family=Nosifer&family=Open+Sans&family=Orienta&family=Oswald:wght@500&family=Raleway:wght@100;300;400;500;600;700;800;900&family=Trykker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Manrope&family=Nosifer&family=Open+Sans&family=Orienta&family=Oswald:wght@500&family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+
+/* 
+    başlık font-family: 'Staatliches', cursive;
+    fimler  font-family: 'IBM Plex Sans KR', sans-serif;
+    hover font-family: 'Orienta', sans-serif;
+    yedek font-family: 'Trykker', serif;
+    yedek font-family: 'Open Sans', sans-serif;
+*/
+
+
+#genel{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000;
+}
+
+nav .nav-1{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+    /* background: linear-gradient(#6CD0FF, #1C2E4C); */
+    /* border-radius: 10px; */
+}
+
+.nav-1 .nav-h1{
+    color: #fff;
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.nav-1 .input input{
+    width: 400px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    border: 2px solid #fff;
+    /* border: none; */
+    border-radius: 30px;
+    padding: 0 20px;
+    box-shadow: #fff;
+}
+
+.nav-1 .nav-ul{
+    display: flex;
+}
+
+.nav-1 .nav-ul .nav-ul-li a{
+    color: #fff;
+    font-size: 17px;
+    padding-left: 10px;
+    padding: 5px 0;
+    display: inline-block;
+    text-align: center;
+    background-color: #333;
+    margin-left: 10px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 1px;
+}
+
+.nav-1 .nav-ul .nav-ul-li a:hover{
+    background-color: rgb(15, 15, 15);
+}
+
+nav header, .header-ul{
+    display: flex;
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+header .header-ul .header-ul-li{
+    padding: 20px;
+}
+
+header .header-ul .header-ul-li a{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 0.8px;
+}
+
+header .header-ul .header-ul-li a:hover{
+    border-bottom: 2px solid #fff;
+    color:#6CD0FF;
+}
+
+.kucuk-resimler{
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-bottom: 20px;
+}
+
+.kucuk-resimler .resimler-h2{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.kucuk-resimler .resimler{
+    display: flex;
+    margin-top: 10px;
+}
+
+.kucuk-resimler .resimler .resimler-1{
+    width: 120px;
+    height: 110px;
+    border: 5px solid rgb(43, 87, 123);
+    border-radius: 50%;
+    margin: 0px 10px;
+    cursor: pointer;
+    transition: transform 0.6s ease;
+}
+
+.kucuk-resimler .resimler .resimler-1:hover{
+    transform: scale(1.3);
+    border: 2px solid #fff;
+    
+}
+
+/* .kucuk-resimler .resimler .resimler-1:hover{
+    border-radius: 5px;
+    width: 130px;
+    height: 140px;
+    border: none;
+} */
+
+/* 
+#main-1{
+    
+} */
+
+#main-1 .resimler-main{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+#main-1 .resimler-main .main-resim{
+    padding: 20px;
+    position: relative;
+}
+
+#main-1 .resimler-main .main-resim img{
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+    position: relative;
+    opacity: 0.9;
+}
+
+#main-1 .resimler-main .main-resim img:hover{
+    transform: scale(1.1);
+    
+}
+
+/* RESPONSİVE HOVER RESİMLER */
+
+#main-1 .resimler-main .main-resim .hover{
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Staatliches', cursive;
+    font-weight: 700;
+    border: none;
+    letter-spacing: 1px;
+}
+
+#main-1 .resimler-main .main-resim .bir{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Staatliches', cursive;
+    font-weight: 700;
+    border: none;
+    letter-spacing: 1px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Manrope&family=Merriweather&family=Nosifer&family=Orienta&family=Oswald:wght@500&family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Faster+One&family=Manrope&family=Nosifer&family=Orienta&family=Oswald:wght@500&family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap');
+/* 
+    başlık font-family: 'Staatliches', cursive;
+    fimler  font-family: 'IBM Plex Sans KR', sans-serif;
+    hover font-family: 'Orienta', sans-serif;
+    yedek font-family: 'Trykker', serif;
+    yedek font-family: 'Open Sans', sans-serif;
+*/
+
+#main-1 .sayfalar{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+
+#main-1 .sayfalar .sayfalar1{
+    display: flex;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 0px 0;
+    border-radius: 5px;
+}
+
+#main-1 .sayfalar .sayfalar1 li{
+    cursor: pointer;
+}
+
+#main-1 .sayfalar .sayfalar1 li:hover{
+    background-color: #FFC526;
+}
+
+#main-1 .sayfalar .sayfalar1 li a{
+    color: #000;
+    font-size: 15px;
+    font-family: 'Orienta', sans-serif;
+    padding: 10px 20px;
+}
+
+#main-1 .sayfalar .sayfalar1 .birii{
+    background-color: #FFC526;
+    border-radius: 2px;
+}
+
+
+@media only screen and (max-width: 900px){
+
+    nav .nav-1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav .nav-1 .nav-h1{
+        padding: 10px 0;
+    }
+
+    nav .nav-1 .input input{
+        width: 300px;
+        margin: 15px 0;
+    }
+
+    nav header{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 2px solid #fff;
+    }
+
+    nav header .header-ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    nav header .header-ul .header-ul-li a{
+        font-size: 14px;
+        padding: 5px 2px;
+    } 
+
+    .kucuk-resimler{
+        border-bottom: 2px solid #fff;
+    }
+
+    .kucuk-resimler .resimler-h2{
+        font-size: 24px;
+        padding-top: 20px;
+    }
+
+    .kucuk-resimler .resimler{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #main-1{
+        width: 100%;
+    }
+
+    #main-1 .resimler-main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #main-1 .resimler-main .main-resim{
+        width: 50%;
+        
+    }
+
+    #main-1 .resimler-main .main-resim img{
+        width: 100%;  
+        height: auto;  
+    }
+
+    #main-1 .resimler-main .main-resim .hover{
+        position: absolute;
+        top: 81%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: yellow;
+        text-align: center;
+        font-size: 16px;
+        font-family: 'Staatliches', cursive;
+        font-weight: 700;
+        border: none;
+        letter-spacing: 1px;
+    }
+  
+    
+
+
+
+
+
+
+    
+    html,body{
+        overflow-x: hidden;
+       }
+}
+
+
+
+
